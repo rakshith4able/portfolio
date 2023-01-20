@@ -41,7 +41,7 @@ const Contact = () => {
           <div className="c-info">
             <div className="c-info-item">
               <img src={Phone} alt="" className="c-icon" />
-              +91 8971640371
+              +1 (514)-974-2519
             </div>
             <div className="c-info-item">
               <img className="c-icon" src={Email} alt="" />
@@ -49,7 +49,7 @@ const Contact = () => {
             </div>
             <div className="c-info-item">
               <img className="c-icon" src={Address} alt="" />
-              Hunsur, Karnataka
+              Montreal, Quebec
             </div>
           </div>
         </div>
@@ -62,7 +62,7 @@ const Contact = () => {
             <input style={{ backgroundColor: darkMode && "#333", color: darkMode && "white" }} type="text" placeholder="Subject" name="user_subject" />
             <input style={{ backgroundColor: darkMode && "#333", color: darkMode && "white" }} type="text" placeholder="Email" name="user_email" />
             <textarea style={{ backgroundColor: darkMode && "#333", color: darkMode && "white" }} rows="5" placeholder="Message" name="message" />
-            <button>Submit</button>
+            <button disabled={done}>Submit</button>
             {done && "Thank you..."}
           </form>
         </div>

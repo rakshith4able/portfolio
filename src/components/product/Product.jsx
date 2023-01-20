@@ -1,7 +1,6 @@
 import "./product.css";
 
 const Product = ({ img, link }) => {
-  console.log(link, img);
   return (
     <div className="p">
       <div className="p-browser">
